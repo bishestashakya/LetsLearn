@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1></h1>
+    <h6></h6>
+    <p></p>
+    <img src="" alt="">
+    <a href="" target="_blank"></a>
+    <a href="">Home</a>
+    <ol type="1">
+        <li>a</li>
+        <li>b</li>
+    </ol>
+    <ul type="disc">
+        <li>a</li>
+        <li>b</li>
+    </ul>
+
+    <table border="1" cellspacing="0" cellpadding="10">
+        <tr>
+            <th rowspan="2"></th>
+            <th colspan="2">Average</th>
+            <th rowspan="2">Red eyes</th>     
+        </tr>
+        <tr>
+            <th>height</th>
+            <th>weight</th>
+        </tr>
+        <tr>
+            <th>Males</th>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td>40%</td>
+        </tr>
+        <tr>
+            <th>Females</th>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td>43%</td>
+        </tr>
+    </table><br>
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <th rowspan="3">Day</th>
+            <th colspan="3">Seminar</th>
+        </tr>
+        <tr>
+            <th colspan="2">Schedule</th>
+            <th rowspan="2">Topic</th>
+        </tr>
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2">8:00 am</td>
+            <td rowspan="2">5:00 pm</td>
+            <td>Introduction to XML</td>
+        </tr>
+        <tr>
+            <td>Validity:DTD and Relax NG</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td>8:00 am</td>
+            <td>11:00 am</td>
+            <td rowspan="1.5">XPath</td>    
+        </tr>
+        <tr>
+            <td>11:00 am</td>
+            <td>2:00 pm</td>
+            <td rowspan="1.5">XSL Transformations</td>
+        </tr>
+        <tr>
+            <td>2:00 pm</td>
+            <td>5:00 pm</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>8:00 am</td>
+            <td>12:00 pm</td>
+            <td>XSL Formatting Objects</td>
+        </tr>
+    </table>
+
+    <br><br><br>
+
+    <form action="" method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name1" id="name" placeholder="enter your name"">
+        <br>
+        <label for="roll">Roll</label>
+        <input type="number" name="roll" id="roll">
+
+        <br>
+        <label for="">Gender</label>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+
+        <br>
+        <label for="">hobbies:</label>
+        <input type="checkbox" name="hobby" id="sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" name="hobby" id="music">
+        <label for="music">Music</label>
+        <input type="checkbox" name="hobby" id="reading">
+        <label for="reading">Reading</label>
+        <br>
+        <label for="city">City:</label>
+        <select name="city" id="city">
+            <option value="kathmandu">Ktm</option>
+            <option value="pokhara">pkh</option>
+            <option value="biratnagar">brt</option>
+        </select>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="reset"> 
+
+    </form><br><br><br>
+
+    <form action="" method="post"> 
+        <div class="formin-line">
+            <div class="formfield">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+            </div>
+        
+            <div class="formfield">
+                <label for="rollno">Roll No:</label>
+                <input type="number" name="rollno" id="rollno" placeholder="Enter your roll number">
+            </div>
+        </div>
+
+        <div class="formfield">
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+        </div>
+
+        <div class="formfield">
+            <label for="hobbies">Hobbies:</label>
+            <label for="art">Art</label>
+            <input type="checkbox" name="hobbies" id="art">
+
+
+            <label for="pottery">Pottery</label>
+            <input type="checkbox" name="hobbies" id="pottery">
+
+            <label for="sleeping">Sleeping</label>
+            <input type="checkbox" name="hobbies" id="sleeping">
+        </div>
+
+        <div class="formfield">
+            <label for="countries">Countries:</label>
+            <select name="countries" id="countries">
+                <option value="Nepal">Nepal</option>
+                <option value="India">India</option>
+                <option value="China">China</option>
+            </select>
+        </div>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+   
+    </form>
+</body>
+</html>
